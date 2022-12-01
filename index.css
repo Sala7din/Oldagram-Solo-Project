@@ -1,5 +1,122 @@
 html, body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    width: 375px;
+    height: 612px;
+    background-color: #F5F5F5;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
+body{
+    background-color: #FFFFFF;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 67px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+header .logo{
+    margin-left:5px;
+    transform: scale(0.9);   
+}
+
+
+
+/* Post Section */
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+header .avatar{  
+    margin: 16px 16px 17px 0;   
+}
+
+.insta-account {
+    margin: 10px 17px 11px 10px;
+    height: 55px;
+    display: flex;    
+    height: 34px; 
+    font-size: 13px;  
+}
+
+.insta-account .avatar {
+    margin-right: 7px;
+}
+
+.post-section img{
+    width: 375px;
+    height: 375px; 
+}
+
+
+
+/* Comment Section */
+
+.comment-section {
+    margin: 21px 19px 16px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    height: 78px;
+}
+
+.comment-section img{
+    width: 23px;
+    height: 23px;
+}
+
+.comment-images{
+    width: 104.34;
+    height: 22.13;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.heart:hover {
+    transition:all 0.5s;
+    transform:scale(1.5);
+}
+
+.comment:hover {
+    transition:all 0.5s;
+    transform:rotate(360deg);
+    
+}
+
+.dm:hover {
+    transition:all 0.5s;
+    transform: translateX(250px)
+}
+
+/*Typoghrapy*/
+
+h2 {
+    margin-top: 4px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+h2 span {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.likes,
+.comments {
+    font-weight:700;
+    font-size: 13px;
+    line-height: 16.34px;
+}
+
+.comments span{
+    font-weight: 400;
+}
